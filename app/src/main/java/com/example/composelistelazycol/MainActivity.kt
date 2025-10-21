@@ -32,7 +32,7 @@ class MainActivity : ComponentActivity() {
 
                         for (chanson in albums){
                             item {
-                                ChansonItem(chanson, modifier = Modifier.height(150.dp))
+                                ChansonItem(chanson, modifier = Modifier.padding(15.dp).height(150.dp))
                             }
                         }
                     }
